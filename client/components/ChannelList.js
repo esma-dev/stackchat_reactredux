@@ -12,8 +12,6 @@ const LUNCH_CHANNEL = '/channels/4';
 
 function ChannelList(props) {
 
-  // render() {
-
     return (
       <ul>
         { props.channels.map( (channel) => {
@@ -31,7 +29,6 @@ function ChannelList(props) {
         </li>
       </ul>
     );
-  // }
 }
 
 function mapStateToProps(state){
